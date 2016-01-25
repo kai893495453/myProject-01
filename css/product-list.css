@@ -1,0 +1,11 @@
+.main{width:1200px;margin: 0px auto;}
+.main .filter{border:1px solid #e6e6e6;}
+.main .filter dl{border-bottom:1px dashed #e6e6e6;}
+.main .filter dl.lastItem{border-bottom:0;}
+.main .filter dl dt{width:124px;font-size:14px;background-color:#f8f7f7;color:#666;min-height:39px;padding-top:17px;padding-left:19px;float: left;}
+.main .filter dl dt.row-high{height:63px;}
+.main .filter dl dd{float: left;width:1055px;min-height:56px;}
+.main .filter dl dd ul li{float: left;color:#666666;font-size:14px;padding:0px 20px;padding-top:10px;padding-bottom:10px;}
+.main .filter dl dd ul span{float: right;font-size:14px;color:#666666;margin-right:25px;cursor:pointer;padding-top:10px;}
+.main .filter a{color:#666;text-decoration: none;}
+.main .filter .active a,.main .filter a:hover{color:#d71921;}

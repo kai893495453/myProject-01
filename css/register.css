@@ -1,0 +1,47 @@
+.main{width:1200px;margin:0px auto;}
+.main .content{width:870px;margin:0px auto;}
+.main .content .accountStep{width:870px;border-bottom:3px solid #d9d9d9;padding-top:40px;}
+.main .content .accountStep .accountDr{float: left;padding-left:145px;width:290px;}
+.main .content .accountStep .accountBusiness{float: left;padding-left:51px;width:384px;}
+.main .content .accountStep .accountDr,.main .content .accountStep .accountBusiness{margin-bottom:-3px;}
+.main .content .accountStep .accountDr a,.main .content .accountStep .accountBusiness a{display:block;height:37px;font-size:20px;text-decoration:none;color:#333333;border-bottom:3px solid #d9d9d9;}
+.main .content .accountStep .accountDr a{background:url(../images/sprite/register.png) no-repeat 47px 1px; padding-left:74px;width:124px;}
+.main .content .accountStep .accountBusiness a{background:url(../images/sprite/register.png) no-repeat -192px 0px; padding-left:63px;width:135px;}
+.main .content .accountStep .setBg1 a{background-position:47px -51px;}
+.main .content .accountStep .setBg2 a{background-position:-192px -54px;}
+.main .content .accountStep .accountDr:hover a{background-position:47px 1px;}
+.main .content .accountStep .accountBusiness:hover a{background-position:-192px -54px;}
+
+.main .content .accountStep .active a,.main .content .accountStep div:hover a{color:#d71921;border-bottom:3px solid #d71921;}
+.main .content .accountInfo{padding-top:42px;margin:0px auto;width:576px;padding-left:12px;}
+.main .content .accountInfo .titleRow{padding-bottom:25px;}
+.main .content .accountInfo h2,.main .content .accountInfo h3{display:inline;}
+.main .content .accountInfo h2{color:#333;font-size:16px;font-weight:bold;}
+.main .content .accountInfo h3{color:#d71921;font-size:12px;}
+.main .content .accountInfo .inputFrame{float: left;width:286px;padding-bottom:20px;}
+.main .content .accountInfo .big{width:572px;}
+.main .content .accountInfo .inputFrame label{width:78px;height:30px;line-height:30px;font-size:14px;color:#666666;display: inline-block;padding-left:23px;background-image:url(../images/sprite/register.png); background-repeat:no-repeat;}
+.main .content .accountInfo .inputFrame .minInput{width:153px;height:28px;border:1px solid #e5e5e5;border-radius:2px;outline:none;text-indent:12px;}
+.main .content .accountInfo .inputFrame .maxInput{width:448px;height:28px;border:1px solid #e5e5e5;border-radius:2px;outline:none;text-indent:12px;}
+.main .content .accountInfo .inputFrame .warmming{font-size:16px;color:#d71921;}
+.main .content .accountInfo .inputFrame .userL{background-position:0px -100px;}
+.main .content .accountInfo .inputFrame .realL{background-position:0px -157px;}
+.main .content .accountInfo .inputFrame .phoneL{background-position:0px -132px;}
+.main .content .accountInfo .inputFrame .hosL{background-position:0px -202px;}
+.main .content .accountInfo .inputFrame .jobL{background-position:0px -290px;}
+.main .content .accountInfo .inputFrame .productL{background-position:-486px -428px;}
+.main .content .accountInfo .inputFrame .companyL{background-position:-485px -467px}
+.main .content .accountInfo .inputFrame .uploadL{background-position:0px -234px;}
+.main .content .accountInfo .inputFrame .addressL{background-position:0px -342px;}
+.main .content .accountInfo .inputFrame .passL{background-position:0px -391px;}
+.main .content .accountInfo .inputFrame .uploadFile{opacity:0;}
+.main .content .accountInfo .inputFrame .inputFile{width:448px;border:1px solid #e5e5e5;display:block;margin-bottom: 10px;float: right;margin-right:16px;color:#999999;font-size:12px;position: relative;}
+.main .content .accountInfo .inputFrame .inputFile span{margin-left:10px;padding-top:7px;}
+.main .content .accountInfo .postSubmit{width:318px;height:45px;background:#d71921;color:#fff;font-size:18px;border:1px solid #d71921;border-radius:4px;margin:0px auto;display: block;margin-top:40px;margin-bottom:147px;cursor:pointer;outline: none;}
+.main .content .accountInfo .postSubmit:hover{background:#af131a;}
+
+
+.blackBg{width:100%;background:#000;height:100%;position:fixed;left:0px;top:0px;opacity:0.2;}
+.tips{width:388px;height:178px;background:#fff;border:1px solid #a4a4a4;text-align:center;position: fixed;z-index:2;top:50%;left:50%;margin-top:-89px;margin-left:-194px;}
+.tips h2{color:#c1111a;font-size:24px;font-weight:bold;padding-top:54px;padding-bottom:25px;}
+.tips h3{color:#666;font-size:14px;}
