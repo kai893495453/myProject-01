@@ -1,0 +1,66 @@
+.main{width:1200px;margin:0px auto;}
+.main .content .step{line-height:87px;height:87px;text-align: right;border-bottom:2px solid #e83726;}
+.main .content .productItem dt{float:left;height:41px;line-height:41px;font-size:14px;color:#333;background-color:#faf9f9;}
+.main .content .productItem .productTitle{width:185px;text-align: center;color:#666;font-size:14px;padding:0px 44px;}
+.main .content .productItem .productImg{width:102px;text-align: center;}
+.main .content .productItem .productCount{width:76px;text-align: center;padding-right:105px;}
+.main .content .productItem .productCount .fun,.main .content .productItem .productCount .count{border:1px solid #e3e2e2;text-align: center;height:22px;line-height:22px;}
+.main .content .productItem .productCount .fun{display:inline-block;width:22px;cursor: pointer;}
+.main .content .productItem .productCount .count{display: inline-block;width:26px;}
+.main .content .productItem .shopPrice,.main .content .productItem .discount,.main .content .productItem .leftPrice{width:160px;}
+.main .content .productItem .option{width:74px;}
+.main .content .productItem dd{float:left;font-size:12px;color:#666;line-height:162px;height: 162px;}
+.main .content .productItem dd img{width:102px;height:47px;}
+.main .content .productItem .option a{font-size:0px;width:20px;height:162px;background:url(../images/sprite/order.png) no-repeat 0px 0px;padding:7px 6px;margin-left:5px;}
+.main .content .total{border:1px solid #e5e5e5;height:48px;line-height:48px;font-size:14px;color:#666666;padding-right:22px;text-align: right;}
+.main .content .total span{font-size:20px;color:#d71921;}
+.main .content .gotoStep{height:47px;line-height:47px;margin:30px 0px 60px;background-color:#e7e7e7;}
+.main .content .gotoStep a{font-size:12px;color:#2c3795;text-decoration: none;padding-left:10px;}
+.main .content .gotoStep a span{font-family:"新宋体";padding-right:4px;}
+.main .content .gotoStep button{background-color:#d71921;font-size:16px;color:#fff;border:0;outline:none;height:47px;width:160px;float: right;}
+
+/*确认信息页*/
+.main .content .addressBox{padding:30px 0px;}
+.main .content .addressBox ul li{float:left;}
+.main .content .addressBox .addr{width:300px;height:165px;border:1px solid #e1dfdf;margin-right:30px;font-size:12px;color:#666}
+.main .content .addressBox .active{border-image:url(../images/address-border.png) 1 1 round;background:url(../images/sprite/order.png) no-repeat 264px -35px;}
+.main .content .addressBox .add{background:url(../images/sprite/order.png) no-repeat -40px -186px;font-size: 14px;color:#8c8b8b;padding-top:105px;padding-left:120px;width:180px;height:60px}
+.main .content .addressBox .addr .info{border-bottom:1px dashed #ececec;margin:0px 17px;padding:15px 0px;padding-left:28px;}
+.main .content .addressBox .addr .baseInfo{background:url(../images/sprite/order.png) no-repeat -183px -40px;}
+.main .content .addressBox .addr .baseInfo .name{padding-right:33px;}
+.main .content .addressBox .addr .addressInfo{background:url(../images/sprite/order.png) no-repeat -183px -82px;}
+.main .content .addressBox .addr .setInfo{display:block;line-height:17px;height: 17px;border:1px solid #d7d7d7;color:#333;border-radius:5px;width:32px;text-decoration: none;text-align: center;float: right;background-color:#f0f0f0;margin-top:14px;margin-right:20px;}
+.main .content .title{height:38px;line-height:38px;border:1px solid #e5e5e5;background-color:#f9f9f9;font-size:16px;color:#666;text-indent:15px;}
+.main .content .infoDetail{height:79px;padding-left:15px;padding-top:16px;font-size:14px;color:#999;}
+.main .content .shopList{padding-bottom:44px;}
+.main .content .shopList dt{font-size:14px;color:#666;padding-top:18px;padding-bottom:14px;float: left;border-bottom:1px solid #e5e5e5;}
+.main .content .shopList .product-title{width:675px;padding-left:25px;}
+.main .content .shopList dt.product-title{border-bottom:1px solid #c1171e;width:130px;}
+.main .content .shopList .product-count{width:102px;text-align: center;}
+.main .content .shopList dt.product-count{width:608px;text-align: right;padding-right:42px;}
+.main .content .shopList .product-price{width:348px;text-align:right;padding-right:45px;}
+.main .content .shopList dt.product-price{padding-right:50px;width:343px;}
+.main .content .shopList dd{line-height:76px;height:76px;float:left;font-size:14px;color:#999;border-bottom:1px solid #e5e5e5;}
+.main .content .shopList dd.product-title img{width:88px;height:40px;padding-right:18px;}
+.main .content .bottom{padding:38px 50px;background-color:#f8f8f8;border:1px solid #e6e6e6;border-image:url(../images/order-border.png) 1 1 round;margin-bottom:60px;}
+.main .content .bottom h3{font-size:16px;color:#333;line-height:16px;padding-bottom:20px;}
+.main .content .bottom .info{color:#666;font-size:14px;line-height:24px;border-bottom:1px solid #dfdfdf;margin-right:30px;width:738px;padding-bottom:22px;}
+.main .content .bottom .info .name{padding-bottom:12px;}
+.main .content .bottom .otherInfo{font-size:14px;color:#333;}
+.main .content .bottom .otherInfo li{margin:20px 0px;}
+.main .content .bottom .otherInfo li.invoice{display:block;}	/*none就把发票信息都隐藏掉*/
+.main .content .bottom .otherInfo li .cont{display:inline-block;}
+.main .content .bottom .otherInfo li .cb{width:14px;height:14px;display: inline-block;}
+.main .content .bottom .otherInfo li .cbL{padding-left:10px;display: inline-block;width:80px;background:url(../images/sprite/order.png) no-repeat 40px -260px;}
+.main .content .bottom .otherInfo li .companyName{padding:5px;border:1px solid #dfdfdf;margin-left:-10px;outline: none;}
+.main .content .bottom .otherInfo li .radioNone{display: none;}
+.main .content .bottom .otherInfo li .L{color:#666;width:82px;display: inline-block;padding-left:20px;background:url(../images/sprite/order.png) no-repeat -97px -28px;}
+.main .content .bottom .otherInfo li input[checked="checked"] + label{background:url(../images/sprite/order.png) no-repeat -185px 3px;}
+.main .content .bottom .otherInfo li button{width:140px;height:35px;color:#fff;font-size:14px;border:0;outline:none;background-color:#2c3795;font-family:"微软雅黑";margin-top:18px;}
+.main .content .bottom .totalBox{font-size:14px;color:#666;border-left:1px solid #e6e6e6;}
+.main .content .bottom .totalBox ul{width:272px;margin-left:50px;padding-bottom: 20px;border-bottom:1px solid #e6e6e6;}
+.main .content .bottom .totalBox ul li{line-height:36px;}
+.main .content .bottom .totalBox ul li span{float: right;text-align: left;width:60px;}
+.main .content .bottom .totalBox .totalPrice{line-height:36px;height:36px;margin-left:50px;}
+.main .content .bottom .totalBox .totalPrice span{float: right;width:70px;text-align: left;font-size:20px;font-family:"微软雅黑";color:#d71921;}
+.main .content .bottom .totalBox button{width:272px;height:40px;color:#fff;background-color:#d71921;margin-left:50px;border:0;outline: none;margin-top:25px;font-size:16px;font-family:"微软雅黑";}

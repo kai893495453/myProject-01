@@ -1,0 +1,10 @@
+.main{width:1200px;margin:0px auto;}
+.main .content .subnav{border:1px solid #e5e5e5;width:238px;}
+.main .content .subnav h2{color:#fff;font-size:18px;text-align:center;background-color:#2c3795;line-height:42px;height:42px;}
+.main .content .subnav ul{padding:21px 8px 52px;}
+.main .content .subnav ul li{height:46px;line-height:46px;font-family:"宋体";font-size:12px;border-bottom:1px dashed #cdcdcd;}
+.main .content .subnav ul li a{color:#666;text-decoration: none;text-indent:29px;display:block;background:url(../images/sprite/infos.png) no-repeat 168px 18px;}
+.main .content .infomations{border:1px solid #e5e5e5;padding:0px 24px 65px;margin-bottom:55px;}
+.main .content .infomations h2{font-size:24px;color:#d71921;width:895px;border-bottom:1px dashed #cdcdcd;text-align: center;line-height:24px;padding:35px 0px 20px;margin-bottom:10px;}
+.main .content .infomations .title{font-size:14px;color:#666;font-family:"宋体";font-weight:bold;padding:30px 0px;}
+.main .content .infomations p{font-size:12px;font-family:"宋体";color:#666;line-height:1.8;}

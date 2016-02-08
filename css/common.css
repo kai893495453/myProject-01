@@ -35,7 +35,7 @@ body{font-family: "微软雅黑";}
 
 /*脚部*/
 .footer{width: 100%;background: #2c3795;}
-.footer .topAdv{width: 100%; background: #fff;padding:28px 0px;}
+.footer .topAdv{width: 100%; background: #fff;padding:28px 0px;border-top:1px solid #f2f2f2;}
 .footer .topAdv .topDetail{width: 1200px;margin:0px auto;}
 .footer .topAdv .topDetail ul li{float: left;color: #666;font-size: 20px;border-right: 1px solid #e5e5e5;width:299px; text-align: center;}
 .footer .topAdv .topDetail ul li.firstItem{text-align: left;}
@@ -71,3 +71,24 @@ body{font-family: "微软雅黑";}
 /*面包屑导航*/
 .breakCrumbs{width:100%;line-height:43px;height:43px;color:#999;font-size:14px;}
 .breakCrumbs a{color:#999;text-decoration:none;}
+
+/*产品推荐商品*/
+.hotProductList{width:236px;height:750px;border:1px solid #e5e5e5;}
+.hotProductList .title{background:#2c3795;height:46px;line-height:46px;}
+.hotProductList .title h2{color:#fff;text-indent:9px;font-size:16px;}
+.hotProductList .title h2 span{color:#f8111a;font:italic bold 16px "Verdana";padding-left:4px;}
+.hotProductList ul li{padding:20px 0px;text-align: center;}
+.hotProductList ul li a{display: block;}
+.hotProductList ul li img{display: block;margin:0px auto;}
+.hotProductList ul li .productTitle{color:#666;font-size:12px;padding-bottom:6px;}
+.hotProductList ul li .price .newPrice{color:#d71921;font-size:14px;}
+.hotProductList ul li .price .oldPrice{color:#999;font-size:12px;text-decoration:line-through;padding-left:10px;}
+
+/*跳转*/
+.jumpPage{margin-top:40px;margin-bottom:50px;font-size:12px;color:#333;}
+.jumpPage a{color:#333;text-decoration: none;padding:10px 19px;display:block;}
+.jumpPage ul li{float: left;border:1px solid #e5e5e5;}
+.jumpPage ul li.pageNumber{border-left:0px;}
+.jumpPage ul li.active a,.jumpPage ul li.pageNumber:hover a{color:#fff;background:#d71921;}
+.jumpPage ul li.nextPage{color:#d71921;border-left:0px;}
+.jumpPage ul li.nextPage a{color:#d71921;}

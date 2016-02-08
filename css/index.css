@@ -49,3 +49,23 @@
 .main .product .guessLike .guessCtrl{width:60px; margin:36px auto 72px;}
 .main .product .guessLike .guessCtrl li{float: left;margin-right:10px;background-color:#6c6c6c;border-radius:30px;width:10px; height:10px;}
 .main .product .guessLike .guessCtrl li.active{background:#d71921;}
+
+.wrapper .sideBar{width:40px;height:100%;background:#262626;position: fixed;top:0px;right:0px;}
+.wrapper .sideBar .imgBox{width: 40px;height: 40px;background:url(../images/sprite/index.png) no-repeat 0px 0px #262626;position:absolute;}
+.wrapper .sideBar .imgBox:hover{background-color: #d71921;}
+.wrapper .sideBar .wechat{top:222px;background-position:7px -257px;}
+.wrapper .sideBar .wechat:hover .codeBox{opacity:1;}
+.wrapper .sideBar .wechat .codeBox{position:absolute;left:-151px;top:-55px;width:148px;height: 174px;background:#fff;border:1px solid #e5e5e5;border-radius:5px;text-align: center;color: #333;font-size:12px;opacity:0;}
+.wrapper .sideBar .wechat .codeBox .code{display: block;margin:18px auto;}
+.wrapper .sideBar .qq{top:302px;background-position:7px -323px;}
+.wrapper .sideBar .wechat .codeBox b{background: url(../images/sprite/index.png) no-repeat -376px -168px;position: absolute;padding:10px;right:-9px;top:60px;}
+.wrapper .sideBar .like{top:520px;background-position:-369px -295px;}
+.wrapper .sideBar .share{top:570px;background-position:-369px -350px;}
+.wrapper .sideBar .goTop{top:680px;background-position:-369px -88px;cursor:pointer;}
+.wrapper .sideBar .goTop:hover .goBox{opacity:1;}
+.wrapper .sideBar .goTop .goBox{font-size:14px;color: #999;position:absolute;left:-105px;width:103px;height:27px;border:1px solid #e5e5e5;border-radius:5px;text-align: center;padding-top:6px;opacity:0;}
+.wrapper .sideBar .goTop .goBox b{background: url(../images/sprite/index.png) no-repeat -376px -168px;position: absolute;padding:10px;right:-9px;top:4px;}
+.wrapper .sideBar .shopcar{height: 126px;width: 40px;background-position:7px -370px;color:#fff;font-size:12px;font-family:"微软雅黑";top:362px;}
+.wrapper .sideBar .shopcar:hover{background-color:#262626;}
+.wrapper .sideBar .shopcar a{display: block;text-decoration: none;color: #fff;margin:0px auto;width:23px;padding-top:40px;text-align: center;border-bottom:1px solid #515151;padding-bottom:12px;}
+.wrapper .sideBar .shopcar a span{display:block;width: 23px;height:21px;text-align:center;background-color:#d71921;border-radius:20px;padding-top:2px;margin-top:10px;}

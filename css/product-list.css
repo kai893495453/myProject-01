@@ -9,3 +9,24 @@
 .main .filter dl dd ul span{float: right;font-size:14px;color:#666666;margin-right:25px;cursor:pointer;padding-top:10px;}
 .main .filter a{color:#666;text-decoration: none;}
 .main .filter .active a,.main .filter a:hover{color:#d71921;}
+.main .content{padding-top:20px;}
+.main .content .hotFilter{width:938px;height:48px;border:1px solid #e5e5e5;line-height:45px;}
+.main .content .hotFilter .aSelect{color:#666;font-size:12px;text-decoration:none;display:inline-block;width:53px;height:30px;line-height:30px;text-align:center;}
+.main .content .hotFilter .bg{background:url(../images/sprite/product-list.png) no-repeat 44px 8px;}
+.main .content .hotFilter .active,.main .content .hotFilter a:hover{background:#d71921;color:#fff;}
+.main .content .hotFilter .fr span.active{color:#d71921;background:#fff;font-size:14px;}
+.main .content .hotFilter .fr span{color:#c7c6c6;font-size:14px;}
+.main .content .hotFilter .fr a{text-decoration:none;background:#eee;font-size:18px;color:#666;display:inline-block;width:24px;height:24px;text-align:center;line-height:24px;border-radius:15px;font-family:"新宋体";margin-left:15px;}
+.main .content .hotFilter .fr a.active,.main .content .hotFilter .fr a:hover{background:#d71921;color:#fff;}
+.main .content .productList{width:938px;}
+.main .content .productList li.item{float: left;border:1px solid #e5e5e5;width:288px;margin-top:20px;margin-bottom:10px;margin-right:34px;}
+.main .content .productList li.lastRightItem{margin-right:0px;}
+.main .content .productList li.item div.productItem{width:255px;margin:0px auto;}
+.main .content .productList li.item div.productItem a{display:block;text-decoration:none;}
+.main .content .productList li.item div.productItem a img{padding:60px 0px 40px;width:256px;height:112px;display:block;}
+.main .content .productList li.item div.productItem .price{color:#d71921;font-size:20px;font-family:"Verdana";padding-bottom:15px;}
+.main .content .productList li.item div.productItem .detail{color:#666;font-size:13px;padding-bottom:8px;border-bottom:1px dashed #d3d3d3;}
+.main .content .productList li.item div.productItem .shop{padding-top:16px;padding-bottom:22px;}
+.main .content .productList li.item div.productItem .shop a{display:block;font-size:12px;padding-left:30px;border-radius:4px}
+.main .content .productList li.item div.productItem .shop a.shopcar{width:70px;height:25px;float: left; color:#f8f6f6;line-height:25px;background:url(../images/sprite/product-list.png) no-repeat 6px -35px #d71921;}
+.main .content .productList li.item div.productItem .shop a.like{width:38px;height:23px;border:1px solid #ccc;float: right;color:#666;line-height:23px;background:url(../images/sprite/product-list.png) no-repeat 6px -90px;}
